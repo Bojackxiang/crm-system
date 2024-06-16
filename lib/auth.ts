@@ -99,7 +99,7 @@ export const authOptions: NextAuthOptions = {
               is_admin: false,
               is_account_admin: false,
               lastLoginAt: new Date(),
-              userStatus:"ACTIVE",
+              userStatus:"PENDING",
             },
           });
 
