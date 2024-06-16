@@ -99,10 +99,7 @@ export const authOptions: NextAuthOptions = {
               is_admin: false,
               is_account_admin: false,
               lastLoginAt: new Date(),
-              userStatus:
-                process.env.NEXT_PUBLIC_APP_URL === "https://demo.nextcrm.io"
-                  ? "ACTIVE"
-                  : "PENDING",
+              userStatus:"ACTIVE",
             },
           });
 
